@@ -62,7 +62,7 @@ int main() {
 
     // In the event of an exception
     } catch (std::invalid_argument) {
-        std::cout << userNumberString << "is not a whole positive number!"
+        std::cout << userNumberString << " is not a whole positive number!"
         << std::endl;
     }
 }
